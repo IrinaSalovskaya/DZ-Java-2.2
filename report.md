@@ -7,6 +7,7 @@
 В результате тестирования было выявлено, что рассчет суммы производится некорректно.
 Исходные данные для проведения тестирования
 1.Создать базовое приложение и разместить в нём переданный вам код
+```
 public class Main {
 public static void main(String[] args) {
 double regularBonus = 0.3;
@@ -15,6 +16,8 @@ double totalBonus = regularBonus + specialBonus;
 System.out.println(totalBonus);
 }
 }
+```
+
 2.Проверить его работоспособность
 
 ## **Описание тестов**
